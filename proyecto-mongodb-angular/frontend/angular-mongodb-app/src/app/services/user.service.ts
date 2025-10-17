@@ -1,13 +1,13 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { User, ApiResponse } from '../interfaces/user.interface';
+import { User } from '../interfaces/user.interface';
 
 @Injectable({
   providedIn: 'root'
 })
 export class UserService {
-  private apiUrl = 'https://backend-pal-7.onrender.com';
+  private apiUrl = 'http://localhost:3000/api';
 
   constructor(private http: HttpClient) { }
 

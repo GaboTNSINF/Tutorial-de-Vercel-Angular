@@ -8,11 +8,3 @@ export interface User {
   createdAt?: string;
   updatedAt?: string;
 }
-
-export interface ApiResponse<T> {
-  success: boolean;
-  message?: string;
-  data?: T;
-  count?: number;
-  error?: string;
-}

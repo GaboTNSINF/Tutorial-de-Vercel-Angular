@@ -8,8 +8,8 @@ import { User } from './interfaces/user.interface';
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, FormsModule],
-  templateUrl: './app.html',
-  styleUrls: ['./app.css']
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
   title = 'MongoDB + Angular App';
